@@ -13,36 +13,6 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-
-
-.stars {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.star {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    background: #FFF;
-    animation: animateStars linear infinite;
-    opacity: 0;
-}
-
-@keyframes animateStars {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
-}
-
-
 main {
     height: 100vh;
     display: flex;
@@ -50,31 +20,6 @@ main {
     justify-content: center;
     padding: 0px 50px;
 }
-
-main .bg {
-    z-index: -999;
-    background-color: cadetblue;
-    width: 500px;
-    height: 100vh;
-    position: absolute;
-    right: 0px;
-    border-radius: 0px 0px 0px 90%;
-    box-shadow: 0px 0px 15px cadetblue;
-    filter: blur(10px);
-}
-
-main .bgg {
-    z-index: -999;
-    background-color: cadetblue;
-    width: 500px;
-    height: 100vh;
-    position: absolute;
-    left: 0px;
-    border-radius: 0px 90% 0px 0px;
-    box-shadow: 0px 0px 15px cadetblue;
-}
-
-
 
 main .nav-img {
     flex: 1 10rem;
@@ -91,13 +36,11 @@ main .nav-kolom {
 
 main .nav-kolom h1 {
     font-size: 50px;
-    margin-bottom: 30px;
-    text-shadow: 1px 4px 10px black;
+    margin-bottom: 70px;
 }
 
 main .nav-kolom h3 {
     font-size: 25px;
-    text-shadow: 1px 2px 5px black;
 }
 
 main .nav-kolom button {
@@ -107,7 +50,6 @@ main .nav-kolom button {
     border-radius: 10px;
     margin-top: 40px;
     font-size: 15px;
-    box-shadow: 0px 0px 5px black;
 }
 
 /* Bagian Pengeditan javascript */
@@ -170,12 +112,11 @@ section h5 {
 /* ------------------ */
 
 .pertama {
-    z-index: 9999;
     background-color: rgb(112, 181, 245);
     border: 2px solid #fff;
     padding: 40px;
-    width: auto;
-    height: auto;
+    width: 800px;
+    height: 350px;
     position: fixed;
     margin: auto;
     top: 0;
@@ -305,32 +246,6 @@ article .navbar-komponen .nav-komponen button {
         flex-direction: column;
         height: auto;
     }
-/* 
-    main .bg {
-        z-index: -999;
-        background-color: cadetblue;
-        width: 200px;
-        height: 200px;
-        position: absolute;
-        top: 0px;
-        right: -3px;
-        border-radius: 0px 0px 0px 80%;
-        box-shadow: 0px 0px 10px cadetblue;
-        filter: blur(10px);
-    }
-
-    main .bgg {
-        z-index: -999;
-        background-color: cadetblue;
-        width: 200px;
-        height: 200px;
-        position: absolute;
-        left: 0px;
-        bottom: 0px;
-        filter: blur(10px);
-        border-radius: 0px 90% 0px 0px;
-        box-shadow: 0px 0px 15px cadetblue;
-    } */
 
     main .nav-img img {
         width: 380px;
