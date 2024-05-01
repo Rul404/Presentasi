@@ -83,7 +83,7 @@ let kedelapan = document.getElementById('kedelapan')
 
 // Animasi Bacground 
 
-const numStars = 300; // Jumlah bintang yang ingin Anda tambahkan
+const numStars = 500; // Jumlah bintang yang ingin Anda tambahkan
 const container = document.querySelector('.stars');
 
 for (let i = 0; i < numStars; i++) {
