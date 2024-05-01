@@ -51,3 +51,46 @@ function myKelima() {
         kelima.style.display ='none'
     }
 }
+
+let keenam = document.getElementById('keenam')
+function myKeenam() {
+    if(keenam.style.display === 'none') {
+        keenam.style.display = 'block'
+    } else {
+        keenam.style.display ='none'
+    }
+}
+
+let ketujuh = document.getElementById('ketujuh')
+
+function myKetujuh() {
+    if(ketujuh.style.display === 'none') {
+        ketujuh.style.display = 'block'
+    } else {
+        ketujuh.style.display ='none'
+    }
+}
+
+let kedelapan = document.getElementById('kedelapan') 
+    function myKedelapan() {
+        if(kedelapan.style.display === 'none') {
+            kedelapan.style.display = 'block'
+        } else {
+            kedelapan.style.display ='none'
+        }
+    }
+
+
+// Animasi Bacground 
+
+const numStars = 300; // Jumlah bintang yang ingin Anda tambahkan
+const container = document.querySelector('.stars');
+
+for (let i = 0; i < numStars; i++) {
+    const star = document.createElement('div');
+    star.className = 'star';
+    star.style.top = Math.random() * 100 + '%';
+    star.style.left = Math.random() * 100 + '%';
+    star.style.animationDuration = (Math.random() * 1 + 0.3) + 's'; // Durasi animasi yang berbeda untuk setiap bintang
+    container.appendChild(star);
+}
